@@ -1,0 +1,185 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Caprasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    
+    margin: 0;
+}
+
+.left{
+    background-image: url("dunk.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    width: 40%;
+    min-width: 300px;
+    height: 100%;
+    margin-left: 0px;
+    
+    display: flex;
+    
+}
+
+.logo{
+    max-width: 100%;
+    width: 100%;
+    height: 100px;
+    margin-top: 400px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: black;
+    background: rgba(0, 0, 0, 0.8);
+    
+}
+
+.right{
+    display:flex;
+    flex-direction: column; 
+    width: 60%;
+    font-family: 'Rowdies', cursive;
+    background-color: #242322;
+    color: #b3b2af;
+}
+
+.right > .right-top{
+    display: flex;
+
+    flex-direction: column;
+    
+    
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: black;
+    
+}
+
+.right > .form > .container > form{
+    border: none;
+}
+
+.right > .form{
+    
+    
+    width: 100%;
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+
+.right > .right-top > p{
+    font-size: 24px;
+    padding-left: 50px;
+    padding-top: 0;
+    
+    
+}
+
+
+img{
+    height: 100%;
+}
+
+.left > .logo > p{
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Caprasimo', cursive;
+    font-size: 24px;
+}
+
+
+.right > .form > .container{
+    display:flex;
+   
+}
+
+.right > .form > .container > form{
+    width: 100%;
+}
+
+.right > .form > .container > form > fieldset{
+    
+    
+    display: flex;
+    flex-direction : column;
+    
+    
+   
+}
+
+.right > .form > .container > form > fieldset > .contact-details{
+    display: flex;
+    
+    margin-bottom: 20px;
+}
+
+.right > .form > p{
+    margin-left: 50px;
+    font-size: 20px;
+
+}
+.right > .form > .container > form > fieldset > .contact-details > .left-side{
+    margin-left: 30px;
+    margin-right: 50px; 
+}
+
+
+.form-section{
+    margin-bottom: 20px;
+    display: flex;
+    
+    flex-direction: column;
+    width: 20vw;    
+  
+}
+
+.form-section label {
+   
+    margin-bottom: 5px;
+  }
+
+.form-section input{
+   background-color: #242322;
+   border: 1px solid #000;
+   color: #E5E7EB; 
+   font-family: 'Rowdies', cursive;
+   border-radius: 5px;
+}
+
+.form-section input:focus{
+    border-color: blue;
+}
+.form-section input:invalid{
+    border-color: red;
+}
+
+.form-section input:valid{
+    border-color: green;
+}
+
+.form-section button{
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 30px;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Rowdies', cursive;
+}
+
+body{
+    display: flex;
+
+}
